@@ -1,0 +1,19 @@
+{
+    "name": "ninik/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ninik"
+        }
+    ],
+    "require": {
+        "php" : ">=8"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "NamaProject\\Belajar\\": "src/"
+        }
+    }
+}
